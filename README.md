@@ -6,7 +6,6 @@ A machine learning project for predicting house prices using advanced regression
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Models Used](#models-used)
 - [Data Preprocessing](#data-preprocessing)
 - [Feature Engineering](#feature-engineering)
@@ -34,17 +33,6 @@ RealEstateValuePredictor is designed to predict house prices using a variety of 
 2. Install the required packages:
     ```bash
     pip install -r requirements.txt
-    ```
-
-## Usage
-1. Load the dataset:
-    ```python
-    train = pd.read_csv("path/to/train.csv")
-    test = pd.read_csv("path/to/test.csv")
-    ```
-2. Run the preprocessing and model training script:
-    ```python
-    python housepricepredict-regression.py
     ```
 
 ## Models Used
